@@ -1,0 +1,357 @@
+.head{
+    height: 80px;
+    width: 90%;
+    display: flex;  
+    justify-content:flex-start;
+    align-items: center;
+    margin: 2rem;
+}
+
+.logo{
+    margin: 2rem;
+    height: 80px;
+    width:80px;
+    align-self: flex-start;
+}
+
+.botton{
+    margin: 2rem 0 0 0;
+    /* background-color:lightslategray; */
+    /* height: 5rem; */
+    width:100%;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+.btn{
+    height: 100%;
+    transition: 0.2s linear;
+    text-decoration:none;
+    margin: 0 3rem 0 2rem;
+    height: 2rem;
+    background-color: white;
+    border-color: white;
+    border-radius:0 30% 0 30% ;
+}
+
+.btn:hover{
+    background-color: rgb(210, 34, 34);
+    color: white;
+    font-weight: 0;
+    /* border-top-right-radius: 1.5rem; */
+    /* border-bottom-left-radius: 1.5rem; */
+}
+
+.bckimg{
+    /* background-image: url(pri1.png); */
+    /* background-size: cover; */
+    height: 70vh;
+    width: 100%;
+    margin-top: 2%
+}
+
+.bckimg img{
+    height: 100%;
+    width: 100%;
+}
+
+.bckimg h1{
+    /* text-align: center; */
+    transform: translate(13rem,-15rem);
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
+    letter-spacing: 0.3rem;
+    font-weight: 400;
+    font-size: 60px;
+
+}
+
+/* .bckimg h2{
+    color: white;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 28px;
+    margin-top: 1.5rem;
+} */
+
+.info{
+    height: 15rem;
+    width: 65rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(20rem);
+}
+
+.info h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.info p{
+    /* font-family: monospace; */
+    text-align: center;
+    font-weight: 400;
+}
+
+.info1{
+    height: 20rem;
+    width: 100%;
+    /* border: 2px solid black; */
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.info11{
+    height: 50%;
+    width: 30%;
+    transform: translateX(-7rem);
+}
+
+.info11 h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.info11 p{
+    /* font-family: sans-serif; */
+    font-weight: 400;
+}
+.info12 img{
+    height: 100%;
+    width: 80%;
+    transform: translateX(5rem);
+}
+
+.info2{
+    height: 15rem;
+    width: 100%;
+    /* border: 2px solid black; */
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.info21{
+    height: 50%;
+    width: 60%;
+    /* transform: translateX(-7rem); */
+    text-align: center;
+}
+
+.info21 h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.info21 p{
+    /* font-family: sans-serif; */
+    font-weight: 400;
+}
+
+.info3{
+    height: 20rem;
+    width: 100%;
+    /* border: 2px solid black; */
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.info31{
+    height: 50%;
+    width: 30%;
+    /* transform: translateX(-7rem); */
+}
+
+.info31 h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.info31 p{
+    /* font-family: sans-serif; */
+    font-weight: 400;
+}
+.info32 img{
+    height: 100%;
+    width: 80%;
+    transform: translateX(-6rem);
+}
+
+.footer{
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.foot1{
+    width: 100%;
+    height: 35%;
+    transform: translate(0%,20%);
+    /* border: 2px solid red; */
+    display: flex;
+    background: transparent;
+    flex-direction: row;
+    justify-content: center;
+    /* margin-left: 6%; */
+}
+
+.f1{
+    height: 100%;
+    width: 20%;
+    /* border: 2px solid white; */
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.f1 a{
+    background: transparent;
+    color: grey;
+    text-decoration: none;
+}
+
+.f1 a:hover{
+    color: white;
+}
+
+.f1 h4{
+    margin-bottom: 8%;
+}
+
+.f1 h4,h6{
+    background: transparent;
+    color: grey;
+}
+
+.cll{
+    background:transparent;
+    color: white;
+    margin-bottom: -3%;
+    margin-right: 2%;
+}
+
+.ft{
+    background-color: black;
+    color: grey;
+    background: transparent;
+    margin-right: 2%;
+}
+
+.ft:hover{
+    color: white;
+}
+
+.add{
+    margin-top: 3%;
+    width: 80%;
+}
+
+.foot2{
+    height: 70%;
+    width: 100%;
+    background: transparent;
+    /* border: 2px solid white; */
+    display: flex;
+    margin-top: 1%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo1{
+    background-image: url(logo1.png);
+    height: 45%;
+    width: 12%;
+    opacity: 0.8;
+    transform: translate(0,-34%);
+    /* border: 2px solid white; */
+    background-color: transparent;
+    background-size: cover;
+    /* z-index: 1; */
+}
+
+.foot2 h1{
+    background-color: black;
+    font-family: sans-serif;
+    color: grey;
+    font-weight: 600;
+    transform: translate(10%,-57%);
+}
+
+.foot2 p{
+    font-family: 'Courier New', Courier, monospace;
+    transform: translate(-90%,100%);
+    font-style: italic;
+    font-weight: 600;
+    font-size: 120%;
+    background-color: transparent;
+    color: white;
+    animation: ani 1s alternate infinite;
+}
+
+@keyframes ani{
+    0%{
+        color: gray;
+    }
+    100%{
+        color: white;
+        letter-spacing: 0.5px;
+    }
+
+}
+
+.footm{
+    height: 70%;
+    width: 90%;
+    background: transparent;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: start;
+    align-items: center;height: 70%;
+    width: 90%;
+    background: transparent;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+}
+
+.pri{
+    height: 40%;
+    width: 30%;
+    /* border: 2px solid white; */
+    background-color: transparent;
+} 
+    
+.line{
+    align-self: center;
+    height: 10%;
+    width: 70%;
+    background-color:transparent;
+    border: 3px solid black;
+    border-top-color: gray;
+    /* margin-top: -5%; */
+}
+
+.pri h6{
+    color: gray;
+    margin-bottom: 5%;
+}
+
+.pr{
+    background-color: transparent;
+}

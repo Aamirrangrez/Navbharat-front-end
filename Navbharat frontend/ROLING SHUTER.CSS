@@ -1,0 +1,286 @@
+.head{
+    height: 80px;
+    width: 90%;
+    display: flex;  
+    justify-content:flex-start;
+    align-items: center;
+    margin: 2rem;
+}
+
+.logo{
+    margin: 2rem;
+    height: 80px;
+    width:80px;
+    align-self: flex-start;
+}
+
+.botton{
+    margin: 2rem 0 0 0;
+    /* background-color:lightslategray; */
+    /* height: 5rem; */
+    width:100%;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+.btn{
+    height: 100%;
+    transition: 0.2s linear;
+    text-decoration:none;
+    margin: 0 3rem 0 2rem;
+    height: 2rem;
+    background-color: white;
+    border-color: white;
+    border-radius:0 30% 0 30% ;
+}
+
+.btn:hover{
+    background-color: rgb(210, 34, 34);
+    color: white;
+    font-weight: 0;
+    /* border-top-right-radius: 1.5rem; */
+    /* border-bottom-left-radius: 1.5rem; */
+}
+
+.bckimg{
+    background-image: url(s1.jpg);
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+    margin-top: 2%;
+    background-position: center;
+}
+.bckimg h1{
+    text-align: center;
+    transform: translateY(400%);
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
+    letter-spacing: 0.3rem;
+    font-weight: 400;
+    
+    
+}
+
+.inf h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.3rem;
+    font-weight: 400;
+    margin-top: 3%;
+}
+
+.par{
+    height:50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    /* text-align: center; */
+}
+
+.par p{
+width: 65%;
+text-align: center;
+color: rgb(63,63,63);
+}
+
+.par ul{
+    line-height: 160%;
+    transform: translateX(-5%);
+}
+
+.carousel slide{
+    height: 60vh;
+    width: 50%;
+}
+
+.pic{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2%;
+}
+
+.pic img{
+    height: 20rem;
+    width: 20rem;
+}
+
+.footer{
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.foot1{
+    width: 100%;
+    height: 35%;
+    transform: translate(0%,20%);
+    /* border: 2px solid red; */
+    display: flex;
+    background: transparent;
+    flex-direction: row;
+    justify-content: center;
+    /* margin-left: 6%; */
+}
+
+.f1{
+    height: 100%;
+    width: 20%;
+    /* border: 2px solid white; */
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.f1 a{
+    background: transparent;
+    color: grey;
+    text-decoration: none;
+}
+
+.f1 a:hover{
+    color: white;
+}
+
+.f1 h4{
+    margin-bottom: 8%;
+}
+
+.f1 h4,h6{
+    background: transparent;
+    color: grey;
+}
+
+.cll{
+    background:transparent;
+    color: white;
+    margin-bottom: -3%;
+    margin-right: 2%;
+}
+
+.ft{
+    background-color: black;
+    color: grey;
+    background: transparent;
+    margin-right: 2%;
+}
+
+.ft:hover{
+    color: white;
+}
+
+.add{
+    margin-top: 3%;
+    width: 80%;
+}
+
+.foot2{
+    height: 70%;
+    width: 100%;
+    background: transparent;
+    /* border: 2px solid white; */
+    display: flex;
+    margin-top: 1%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo1{
+    background-image: url(logo1.png);
+    height: 45%;
+    width: 12%;
+    opacity: 0.8;
+    transform: translate(0,-34%);
+    /* border: 2px solid white; */
+    background-color: transparent;
+    background-size: cover;
+    /* z-index: 1; */
+}
+
+.foot2 h1{
+    background-color: black;
+    font-family: sans-serif;
+    color: grey;
+    font-weight: 600;
+    transform: translate(10%,-57%);
+}
+
+.foot2 p{
+    font-family: 'Courier New', Courier, monospace;
+    transform: translate(-90%,100%);
+    font-style: italic;
+    font-weight: 600;
+    font-size: 120%;
+    background-color: transparent;
+    color: white;
+    animation: ani 1s alternate infinite;
+}
+
+@keyframes ani{
+    0%{
+        color: gray;
+    }
+    100%{
+        color: white;
+        letter-spacing: 0.5px;
+    }
+
+}
+
+.footm{
+    height: 70%;
+    width: 90%;
+    background: transparent;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: start;
+    align-items: center;height: 70%;
+    width: 90%;
+    background: transparent;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+}
+
+.pri{
+    height: 40%;
+    width: 30%;
+    /* border: 2px solid white; */
+    background-color: transparent;
+} 
+    
+.line{
+    align-self: center;
+    height: 10%;
+    width: 70%;
+    background-color:transparent;
+    border: 3px solid black;
+    border-top-color: gray;
+    /* margin-top: -5%; */
+}
+
+.pri h6{
+    color: gray;
+    margin-bottom: 5%;
+}
+
+.pr{
+    background-color: transparent;
+}
